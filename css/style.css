@@ -14,14 +14,16 @@ body{
     color: #fff;
 }
 
-header{
+/* header{
     text-align: center;
     position: sticky;
     width: 100%;
     top: 0;
     z-index: 100;
     background-color: #01a7ad;
-}
+} */
+
+
 
 .main__background{
 	width: 100%;
@@ -52,9 +54,9 @@ header{
 	display: inline-block;
 }
 
-.toggler{
+/* .toggler{
     display: none;
-}
+} */
 
 .logo{
     display: flex;
@@ -62,7 +64,7 @@ header{
     width: 80px;
     margin-left: 16px;
 }
-
+/*
 nav ul{
     position: fixed;
     width: 100%;
@@ -107,7 +109,7 @@ nav a:hover {
     height: 100%;
     display: flex;
     align-items: center;
-}
+} */
 
 /* HOME */
 
@@ -550,13 +552,13 @@ textarea:valid~label{
 .div__iframe{
 	display: block;
 	margin: auto;
-	width: 500px;
+	width: 80%;
 	height: 500px;
 }
 
 /* Formato Desktop*/
 
-@media screen and (min-width: 935px) {
+/* @media screen and (min-width: 935px) {
    .burger{
     display: none;
    }
@@ -583,7 +585,7 @@ textarea:valid~label{
     margin-bottom: 0;
     margin-right: 16px;
    }
-}
+} */
 
 @media only screen and (max-width:1150px)  {
 	
