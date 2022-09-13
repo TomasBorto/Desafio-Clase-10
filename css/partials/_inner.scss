@@ -1,0 +1,24 @@
+section{
+    .inner_width{
+    	width: 100%;
+    	max-width: 1200px;
+    	margin: auto;
+    	padding: 0 20px;
+    	overflow: hidden;
+    }
+
+    h1{
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .border{
+        width: 160px;
+        height: 2px;
+        background: #82ccdd;
+        margin: 40px auto;
+    }
+}

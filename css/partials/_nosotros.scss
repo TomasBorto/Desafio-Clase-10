@@ -1,0 +1,51 @@
+main{
+
+    .h1__about{
+        text-align: center;
+        margin: 10px;
+    }
+
+    section{
+
+        .gabi{
+            .img__gabi{
+                max-width: 400px;
+                margin: auto;
+                display: block;
+            }
+            
+            .h3__gabi{
+                text-align: center;
+                max-width: 400px;
+                margin: auto;
+            }
+            
+            .h4__gabi{
+                text-align: center;
+                max-width: 400px;
+                margin: auto;
+            }
+            
+            .h5__gabi{
+                text-align: center;
+                max-width: 400px;
+                margin: auto;
+            } 
+        }
+    }
+
+    .div__h3{
+        text-align: center;
+        margin: 10px;
+        padding: 20px;
+    }
+
+    div{
+        .div__iframe{
+            display: block;
+            margin: auto;
+            width: 80%;
+            height: 500px;
+        }
+    }
+}

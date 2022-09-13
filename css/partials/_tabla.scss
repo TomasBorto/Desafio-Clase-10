@@ -1,0 +1,38 @@
+.table__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: rgb(240, 240, 240);
+
+    p{
+        color: black;
+    }
+
+    .add__new{
+        outline: none;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        padding: 10px 20px;
+        color: black;
+        background-color: #01a7ad;
+    }
+
+    .input__table{
+        padding: 10px 20px;
+        margin: 0 10px;
+        outline: none;
+        border: 1px solid #01a7ad;
+        border-radius: 6px;
+        color: #01a7ad;
+    }
+    
+    &::placeholder{
+        color: #01a7ad;
+    }
+
+    
+    
+}

@@ -1,4 +1,4 @@
-*{
+/* *{
     box-sizing: border-box;
 	padding: 0;
 	margin: 0;
@@ -12,7 +12,7 @@ body{
 	height: 100vh;
 	display: inline-block;
     color: #fff;
-}
+} */
 
 /* header{
     text-align: center;
@@ -25,7 +25,7 @@ body{
 
 
 
-.main__background{
+/* .main__background{
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
@@ -52,18 +52,18 @@ body{
 	height: 100%;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
 	display: inline-block;
-}
+} */
 
 /* .toggler{
     display: none;
 } */
 
-.logo{
+/* .logo{
     display: flex;
     height: 80px;
     width: 80px;
     margin-left: 16px;
-}
+} */
 /*
 nav ul{
     position: fixed;
@@ -93,7 +93,7 @@ nav a:hover {
     color: rgb(91, 180, 253);
     transition: ease-in .1s;
 }
-  
+
 .toggler:checked ~ nav ul {
     left: 0;
 }
@@ -113,16 +113,16 @@ nav a:hover {
 
 /* HOME */
 
-.welcome__section{
+/* .welcome__section{
 	max-width: 600px;
 	height: 300px;
 	text-align: center;
 	margin: auto;
 	display: block;
 	margin-top: 200px;
-}
+} */
 
-.welcome__section h1{
+/* .welcome__section h1{
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -143,98 +143,98 @@ nav a:hover {
 .welcome__section a:hover{
 	background: #fff;
 	color: #333;
-}
+} */
 
 /* Products */
 
-.table{
+/* .table{
 	width: 100%;
-}
+} */
 
-.table__header{
+/* .table__header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
 	padding: 20px;
 	background-color: rgb(240, 240, 240);
-}
+} */
 
-.table__header p{
+/* .table__header p{
 	color: black;
-}
+} */
 
-.add__new{
+/* .add__new{
 	outline: none;
 	border: none;
 	border-radius: 6px;
 	cursor: pointer;
 	padding: 10px 20px;
-	color: #fff;
+	color: black;
 	background-color: #01a7ad;
-}
+} */
 
-.input__table{
+/* .input__table{
 	padding: 10px 20px;
 	margin: 0 10px;
 	outline: none;
 	border: 1px solid #01a7ad;
 	border-radius: 6px;
 	color: #01a7ad;
-}
+} */
 
-::placeholder{
+/* ::placeholder{
 	color: #01a7ad;
-}
+} */
 
-.table__section{
+/* .table__section{
 	height: 650px;
 	overflow: auto;
-}
+} */
 
-table{
+/* table{
 	width: 100%;
 	table-layout: fixed;
 	min-width: 1000px;
 	border-collapse: collapse;
-}
+} */
 
-thead th{
+/* thead th{
 	position: sticky;
 	top: 0;
 	background-color: #f6f9fc;
 	color: #8493a5;
 	font-size: 15px;
-}
+} */
 
-th, td{
+/* th, td{
 	padding: 10px 20px;
 	word-break: break-all;
 	text-align: center;
-}
+} */
 
-td img{
+/* td img{
 	height: 60px;
 	width: 60px;
 	object-fit: cover;
 	border-radius: 15px;
 	border: 5px solid #ced0d2;
-}
+} */
 
-tr:hover td{
+/* tr:hover td{
 	color: #01a7ad;
 	cursor: pointer;
 	background-color: #f6f9fc;
-}
+} */
 
-.pagination{
+/* .pagination{
 	display: flex;
 	justify-content: flex-end;
 	width: 100%;
 	padding: 10px 20px;
-}
+} */
 
-.pagination div{
+/* .pagination div{
 	padding: 10px;
 	border: 2px solid #d5d0d0;
 	height: 40px;
@@ -247,19 +247,19 @@ tr:hover td{
 	color: #fff;
 	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.7);
 	margin: 0 5px;
-}
+} */
 
-::-webkit-scrollbar-track{
+/* ::-webkit-scrollbar-track{
 	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
+} */
 
-::-webkit-scrollbar-thumb{
+/* ::-webkit-scrollbar-thumb{
 	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-}
+} */
 
 /* contact */
 
-.section__contact{
+/* .section__contact{
 	width: 100%;
 	height: 100vh;
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url(../images/dog-cat-vet.png);
@@ -267,19 +267,19 @@ tr:hover td{
 	align-items: center;
 	justify-content: center;
     z-index: 10;
-}
+} */
 
-form{
+/* form{
 	width: 90%;
 	max-width: 600px;
-}
+} */
 
-.input-group{
+/* .input-group{
 	margin-bottom: 30px;
 	position: relative;
-}
+} */
 
-.input__contact{
+/* .input__contact{
 	width: 100%;
 	padding: 10px;
 	outline: 0;
@@ -308,9 +308,9 @@ textarea{
 	color: #fff;
 	cursor: text;
 	transition: 0.2s;
-}
+} */
 
-.button__form{
+/* .button__form{
 	padding: 10px 0;
 	color: #fff;
 	outline: none;
@@ -318,59 +318,60 @@ textarea{
 	border: 1px solid #fff;
 	width: 100%;
 	cursor: pointer;
-}
+} */
 
-.input__contact:focus~label,
+/* .input__contact:focus~label,
 .input__contact:valid~label,
 textarea:focus~label,
 textarea:valid~label{
 	top: -35px;
 	font-size: 14px;
-}
+} */
 
 /* servicios */
 
-.services__section{
+/* .services__section{
 	padding: 60px 0;
-}
+} */
 
-.inner_width{
+/* .inner_width{
 	width: 100%;
 	max-width: 1200px;
 	margin: auto;
 	padding: 0 20px;
 	overflow: hidden;
-}
+} */
 
-.h1__service{
+/* .h1__service{
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
 	font-size: 30px;
 	margin-top: 30px;
-}
+} */
 
-.border{
+/* .border{
 	width: 160px;
 	height: 2px;
 	background: #82ccdd;
 	margin: 40px auto;
-}
+} */
 
-.services__container{
+/* .services__container{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
+
 .service__box{
 	max-width: 33.33%;
 	padding: 10px;
 	text-align: center;
 	color: #ddd;
 	cursor: pointer;
-}
+} */
 
-.service__icon{
+/* .service__icon{
 	display: inline-block;
 	width: 70px;
 	height: 70px;
@@ -380,37 +381,37 @@ textarea:valid~label{
 	margin-bottom: 30px;
 	margin-top: 16px;
 	transition: 0.3s linear;
-}
+} */
 
-.service__icon i{
+/* .service__icon i{
 	line-height: 70px;
 	transform: rotate(-45deg);
 	font-size: 26px;
-}
+} */
 
-.service__box:hover .service__icon{
+/* .service__box:hover .service__icon{
 	background: #82ccdd;
 	color: #ddd;
-}
+} */
 
-.service_title{
+/* .service_title{
 	font-size: 18px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
-}
+} */
 
-.service__desc{
+/* .service__desc{
 	font-size: 14px;
-}
+} */
 
 /* about us*/
 
-.h1__about{
+/* .h1__about{
 	text-align: center;
 	margin: 10px;
-}
+} */
 
-.img__gabi{
+/* .img__gabi{
 	max-width: 400px;
 	margin: auto;
 	display: block;
@@ -432,29 +433,29 @@ textarea:valid~label{
 	text-align: center;
 	max-width: 400px;
 	margin: auto;
-}
+} */
 
 /*.grid__container__about{
 		display: flex;
-		justify-content: space-around;		
+		justify-content: space-around;
 		padding: auto;
 		flex-direction: row;
 }*/
 
-.grid__container__about{
+/* .grid__container__about{
 	display: grid;
-	justify-content: space-around;		
+	justify-content: space-around;
 	padding: auto;
 	grid-template-columns: auto auto auto auto;
-}
+} */
 
-.img__1{
+/* .img__1{
 	max-width: 300px;
 	margin: auto;
 	display: block;
-}
+} */
 
-.h3__1{
+/* .h3__1{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
@@ -470,15 +471,15 @@ textarea:valid~label{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
-}
+} */
 
-.img__2{
+/* .img__2{
 	max-width: 300px;
 	margin: auto;
 	display: block;
-}
+} */
 
-.h3__2{
+/* .h3__2{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
@@ -494,15 +495,15 @@ textarea:valid~label{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
-}
+} */
 
-.img__3{
+/* .img__3{
 	max-width: 300px;
 	margin: auto;
 	display: block;
-}
+} */
 
-.h3__3{
+/* .h3__3{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
@@ -518,15 +519,15 @@ textarea:valid~label{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
-}
+} */
 
-.img__4{
+/* .img__4{
 	max-width: 300px;
 	margin: auto;
 	display: block;
-}
+} */
 
-.h3__4{
+/* .h3__4{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
@@ -542,19 +543,19 @@ textarea:valid~label{
 	text-align: center;
 	max-width: 300px;
 	margin: auto;
-}
+} */
 
-.div__h3{
+/* .div__h3{
 	text-align: center;
 	margin: 10px;
-}
+} */
 
-.div__iframe{
+/* .div__iframe{
 	display: block;
 	margin: auto;
 	width: 80%;
 	height: 500px;
-}
+} */
 
 /* Formato Desktop*/
 
@@ -587,15 +588,15 @@ textarea:valid~label{
    }
 } */
 
-@media only screen and (max-width:1150px)  {
-	
+/* @media only screen and (max-width:1150px)  {
+
 	.grid__container__about{
 		grid-template-columns: auto auto;
   }
-}
+} */
 
-@media only screen and (max-width:600px)  {
-	
+/* @media only screen and (max-width:600px)  {
+
 	.grid__container__about{
 		grid-template-columns: auto;
 	}
@@ -608,10 +609,10 @@ textarea:valid~label{
 		width: 100%;
 		max-height: 300px;
 	}
-}
+} */
 
 /* vista mobile para service */
-@media screen and (max-width:960px) {
+/* @media screen and (max-width:960px) {
 	.service__box{
 		max-width: 45%;
 	}
@@ -631,4 +632,4 @@ textarea:valid~label{
 	.service__box{
 		max-width: 100%;
 	}
-}
+} */

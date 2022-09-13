@@ -1,0 +1,30 @@
+.grid__container__about{
+	display: grid;
+	justify-content: space-around;
+	padding: auto;
+	grid-template-columns: auto auto auto auto;
+
+    h3{
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    h4{
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+    
+    h5{
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .img__1{
+        max-width: 300px;
+        margin: auto;
+        display: block;
+    }
+}

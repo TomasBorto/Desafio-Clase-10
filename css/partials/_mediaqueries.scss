@@ -1,0 +1,44 @@
+@media only screen and (max-width:$Grande)  {
+
+	.grid__container__about{
+		grid-template-columns: auto auto;
+  }
+}
+
+@media only screen and (max-width:$Chica)  {
+
+	.grid__container__about{
+		grid-template-columns: auto;
+	}
+
+	.grid__service{
+		grid-template-columns: 90%;
+	}
+
+	main div .div__iframe{
+		width: 100%;
+		max-height: 300px;
+	}
+}
+
+ @media screen and (max-width:$MobileServiceGrande) {
+ 	.services__container .service__box{
+ 		max-width: 45%;
+ 	}
+ }
+
+ @media screen and (max-width:$MobileServiceMeadiano) {
+ 	.services__container .service__box{
+ 		max-width: 50%;
+ 	}
+
+ 	body .main__background{
+ 		height: auto;
+ 	}
+ }
+
+ @media screen and (max-width:$MobileServiceChico) {
+ 	.services__container .service__box{
+ 		max-width: 100%;
+ 	}
+ }

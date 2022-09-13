@@ -1,0 +1,417 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat", sans-serif;
+  box-sizing: border-box;
+}
+* body {
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  color: #fff;
+}
+
+header .logo {
+  display: flex;
+  height: 80px;
+  width: 80px;
+  margin-left: 16px;
+}
+
+body {
+  font-weight: bold;
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+  color: #fff;
+}
+body .main__background {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body .main__background__index {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body .div__general {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  display: inline-block;
+}
+
+.welcome__section {
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top: 200px;
+}
+.welcome__section h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 60px;
+}
+.welcome__section a {
+  border: 1px solid #fff;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 20px;
+  display: inline-block;
+  color: #fff;
+}
+.welcome__section a:hover {
+  background: #fff;
+  color: #333;
+}
+
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.services__container .service__box {
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+}
+.services__container .service__box:hover .service__icon {
+  background: #82ccdd;
+  color: #ddd;
+}
+.services__container .service__box h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.services__container .service__box p {
+  font-size: 14px;
+}
+.services__container .service__box .service__icon {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 3px solid #82ccdd;
+  color: #82ccdd;
+  transform: rotate(45deg);
+  margin-bottom: 30px;
+  margin-top: 16px;
+  transition: 0.3s linear;
+}
+.services__container .service__box .service__icon i {
+  line-height: 70px;
+  transform: rotate(-45deg);
+  font-size: 26px;
+}
+
+section .inner_width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden;
+}
+section h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px;
+}
+section .border {
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto;
+}
+
+section table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 300px;
+  border-collapse: collapse;
+}
+section table .table__section {
+  height: 650px;
+  overflow: auto;
+}
+section table thead th {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f6f9fc;
+  color: #8493a5;
+  font-size: 15px;
+}
+section table th, section table td {
+  padding: 10px 20px;
+  word-break: break-all;
+  text-align: center;
+}
+section table td img {
+  height: 60px;
+  width: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  border: 5px solid #ced0d2;
+}
+section table tr:hover td {
+  color: #01a7ad;
+  cursor: pointer;
+  background-color: #f6f9fc;
+}
+section .pagination {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 10px 20px;
+}
+section .pagination div {
+  padding: 10px;
+  border: 2px solid #d5d0d0;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #01a7ad;
+  color: #fff;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.7);
+  margin: 0 5px;
+}
+section .pagination::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+section .pagination::-webkit-scrollbar-thumb {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.table__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: rgb(240, 240, 240);
+}
+.table__header p {
+  color: black;
+}
+.table__header .add__new {
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 10px 20px;
+  color: black;
+  background-color: #01a7ad;
+}
+.table__header .input__table {
+  padding: 10px 20px;
+  margin: 0 10px;
+  outline: none;
+  border: 1px solid #01a7ad;
+  border-radius: 6px;
+  color: #01a7ad;
+}
+.table__header::-moz-placeholder {
+  color: #01a7ad;
+}
+.table__header:-ms-input-placeholder {
+  color: #01a7ad;
+}
+.table__header::placeholder {
+  color: #01a7ad;
+}
+
+.section__contact {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+}
+.section__contact form {
+  width: 90%;
+  max-width: 600px;
+}
+.section__contact form .button__form {
+  padding: 10px 0;
+  color: #fff;
+  outline: none;
+  background: transparent;
+  border: 1px solid #fff;
+  width: 100%;
+  cursor: pointer;
+}
+.section__contact form .input-group {
+  margin-bottom: 30px;
+  position: relative;
+}
+.section__contact form .input-group .input__contact {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+.section__contact form .input-group .input__contact:focus ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+.section__contact form .input-group .input__contact:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+.section__contact form .input-group textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 15px;
+}
+.section__contact form .input-group textarea:focus ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+.section__contact form .input-group textarea:valid ~ label {
+  top: -35px;
+  font-size: 14px;
+}
+.section__contact form .input-group .label__contact {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 10px;
+  color: #fff;
+  cursor: text;
+  transition: 0.2s;
+}
+
+main .h1__about {
+  text-align: center;
+  margin: 10px;
+}
+main section .gabi .img__gabi {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+}
+main section .gabi .h3__gabi {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+main section .gabi .h4__gabi {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+main section .gabi .h5__gabi {
+  text-align: center;
+  max-width: 400px;
+  margin: auto;
+}
+main .div__h3 {
+  text-align: center;
+  margin: 10px;
+  padding: 20px;
+}
+main div .div__iframe {
+  display: block;
+  margin: auto;
+  width: 80%;
+  height: 500px;
+}
+
+.grid__container__about {
+  display: grid;
+  justify-content: space-around;
+  padding: auto;
+  grid-template-columns: auto auto auto auto;
+}
+.grid__container__about h3 {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+.grid__container__about h4 {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+.grid__container__about h5 {
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
+.grid__container__about .img__1 {
+  max-width: 300px;
+  margin: auto;
+  display: block;
+}
+
+@media only screen and (max-width: 1150px) {
+  .grid__container__about {
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .grid__container__about {
+    grid-template-columns: auto;
+  }
+  .grid__service {
+    grid-template-columns: 90%;
+  }
+  main div .div__iframe {
+    width: 100%;
+    max-height: 300px;
+  }
+}
+@media screen and (max-width: 960px) {
+  .services__container .service__box {
+    max-width: 45%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .services__container .service__box {
+    max-width: 50%;
+  }
+  body .main__background {
+    height: auto;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services__container .service__box {
+    max-width: 100%;
+  }
+}/*# sourceMappingURL=estilo.css.map */

@@ -1,0 +1,36 @@
+body{
+    font-weight: bold;
+    width: 100%;
+	height: 100vh;
+	display: inline-block;
+    color: #fff;
+
+    .main__background{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    .main__background__index{
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+    }
+    
+    .div__general{
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
+        display: inline-block;
+    }
+}
