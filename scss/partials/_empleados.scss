@@ -5,26 +5,22 @@
 	grid-template-columns: auto auto auto auto;
 
     h3{
-        text-align: center;
+        @extend %textocentrado;
         max-width: 300px;
-        margin: auto;
     }
     
     h4{
-        text-align: center;
-        max-width: 300px;
-        margin: auto;
+        @extend %textocentrado;
+        max-width: 300px; 
     }
     
     h5{
-        text-align: center;
+        @extend %textocentrado;
         max-width: 300px;
-        margin: auto;
     }
 
     .img__1{
+        @extend .img__gabi;
         max-width: 300px;
-        margin: auto;
-        display: block;
     }
 }

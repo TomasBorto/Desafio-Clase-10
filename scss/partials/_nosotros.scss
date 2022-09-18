@@ -15,21 +15,16 @@ main{
             }
             
             .h3__gabi{
-                text-align: center;
+                @extend %textocentrado;
                 max-width: 400px;
-                margin: auto;
             }
             
             .h4__gabi{
-                text-align: center;
-                max-width: 400px;
-                margin: auto;
+                @extend .h3__gabi;
             }
             
             .h5__gabi{
-                text-align: center;
-                max-width: 400px;
-                margin: auto;
+                @extend .h3__gabi;
             } 
         }
     }

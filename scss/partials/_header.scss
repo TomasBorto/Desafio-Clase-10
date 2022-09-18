@@ -1,8 +1,29 @@
 header{
-    .logo{
-        display: flex;
-        height: 80px;
-        width: 80px;
-        margin-left: 16px;
-    }
+    background-color: #01a7ad;
+    z-index: 10;
+
+    nav{
+        background-color: #01a7ad;
+        
+        .logo{
+            display: flex;
+            height: 80px;
+            width: 80px;
+            margin-left: 16px;
+        }
+
+        .nav-item{
+            -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+            animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+        }
+
+        @for $item from 1 through 5 {
+            .nav-item#{$item} {
+                animation-delay: $item*0.3s;
+            }
+        }
+        }
 }
+
+@-webkit-keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
+ @keyframes slide-in-left{0%{-webkit-transform:translateX(-1000px);transform:translateX(-1000px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
