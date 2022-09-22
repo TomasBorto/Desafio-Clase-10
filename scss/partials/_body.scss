@@ -3,6 +3,7 @@ body{
     color: #fff;
     position: relative;
     padding-bottom: 3em;
+    font-family: "montserrat";
 
     @mixin background($ancho, $alto) {
         width: $ancho;
@@ -20,7 +21,13 @@ body{
     }
     
     .main__background__index{
-        @extend .main__background;
+        @include background(100%, 100vh);
+        background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)),  url(../images/dog-cat-vet.png);
+        background-size: cover;
+        position: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: scroll;
     }
     
     .div__general{

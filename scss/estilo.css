@@ -1,8 +1,3 @@
-.grid__container__about h5, .grid__container__about h4, .grid__container__about h3, main section .gabi .h3__gabi, main section .gabi .h5__gabi, main section .gabi .h4__gabi {
-  text-align: center;
-  margin: auto;
-}
-
 * {
   box-sizing: border-box;
   padding: 0;
@@ -159,8 +154,19 @@ body {
   color: #fff;
   position: relative;
   padding-bottom: 3em;
+  font-family: "montserrat";
 }
-body .main__background, body .main__background__index {
+body .main__background {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  background-size: cover;
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+body .main__background__index {
   width: 100%;
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
@@ -428,90 +434,86 @@ section table tr:hover td {
   transition: 0.2s;
 }
 
-main .h1__about {
+.div__about {
+  background-color: #f1f1f1;
   text-align: center;
-  margin: 10px;
 }
-main section .gabi .img__gabi, main section .gabi .grid__container__about .img__1, .grid__container__about main section .gabi .img__1 {
-  max-width: 400px;
-  margin: auto;
-  display: block;
-}
-main section .gabi .h3__gabi, main section .gabi .h5__gabi, main section .gabi .h4__gabi {
-  max-width: 400px;
-}
-main .div__h3 {
+.div__about .team_section {
+  background: #f1f1f1;
   text-align: center;
-  margin: 10px;
-  padding: 20px;
 }
-main div .div__iframe {
+.div__about .team_section .inner_width2 {
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+}
+.div__about .team_section .inner_width2 .pers .pe {
+  float: left;
+  width: 25%;
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+}
+.div__about .team_section .inner_width2 .pers .pe:hover {
+  background-color: #ddd;
+}
+.div__about .team_section .inner_width2 .pers .pe img {
+  width: 120px;
+  height: 120px;
+}
+.div__about .team_section .inner_width2 .pers .pe .name {
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+.div__about .team_section .inner_width2 .pers .pe .des {
+  font-size: italic;
+  color: #3498db;
+}
+.div__about .team_section .inner_width2 .pers .pe .datos {
+  margin-top: 12px;
+}
+.div__about .team_section .inner_width2 .pers .pe .datos a {
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.div__about .team_section .inner_width2 .pers .pe .datos a:hover {
+  transform: scale(1.3);
+}
+.div__about .team_section .inner_width2 .pers .pe .datos a i {
+  color: #333;
+  line-height: 30px;
+}
+.div__about .team_section h1 {
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.div__about .div__h3 {
+  font-size: 20px;
+  color: #333;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.div__about div .div__iframe {
   display: block;
   margin: auto;
-  width: 80%;
+  width: 100%;
   height: 500px;
 }
-
-.grid__container__about {
-  display: grid;
-  justify-content: space-around;
-  padding: auto;
-  grid-template-columns: auto auto auto auto;
-}
-.grid__container__about h3 {
-  max-width: 300px;
-}
-.grid__container__about h4 {
-  max-width: 300px;
-}
-.grid__container__about h5 {
-  max-width: 300px;
-}
-.grid__container__about .img__1 {
-  max-width: 300px;
+.div__about .info {
+  color: #333;
 }
 
-.grid__container__about .empleado {
-  -webkit-animation: roll-in-left 0.6s ease-out both;
-  animation: roll-in-left 0.6s ease-out both;
-}
-.grid__container__about .emp1 {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-}
-.grid__container__about .emp2 {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-}
-.grid__container__about .emp3 {
-  -webkit-animation-delay: 3s;
-          animation-delay: 3s;
-}
-.grid__container__about .emp4 {
-  -webkit-animation-delay: 4s;
-          animation-delay: 4s;
-}
-
-@-webkit-keyframes roll-in-left {
-  0% {
-    transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
-@keyframes roll-in-left {
-  0% {
-    transform: translateX(-800px) rotate(-540deg);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0) rotate(0deg);
-    opacity: 1;
-  }
-}
 @media only screen and (max-width: 1150px) {
   .grid__container__about {
     grid-template-columns: auto auto;
@@ -538,12 +540,18 @@ main div .div__iframe {
   .services__container .service__box {
     max-width: 50%;
   }
-  body .main__background, body .main__background__index {
+  .div__about .team_section .inner_width2 .pers .pe {
+    width: 50%;
+  }
+  body .main__background {
     height: auto;
   }
 }
 @media screen and (max-width: 480px) {
   .services__container .service__box {
     max-width: 100%;
+  }
+  .div__about .team_section .inner_width2 .pers .pe {
+    width: 100%;
   }
 }/*# sourceMappingURL=estilo.css.map */
