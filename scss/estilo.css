@@ -95,8 +95,15 @@ header nav .nav-item5 {
   align-items: center;
   flex-wrap: wrap;
 }
-.footer .social__icons-container i, .footer .footer__menu-container i {
+.footer .social__icons-container a, .footer .footer__menu-container a {
   margin: 5px;
+  transition: 0.4s;
+}
+.footer .social__icons-container a:hover, .footer .footer__menu-container a:hover {
+  transform: scale(1.3);
+}
+.footer .social__icons-container a i, .footer .footer__menu-container a i {
+  color: #333;
 }
 .footer p {
   text-align: center;
@@ -135,18 +142,6 @@ header nav .nav-item5 {
 .footer .footer__menu-container .footer__item a {
   text-decoration: none;
   color: #fff;
-}
-
-.fa-facebook {
-  background-color: blue;
-}
-
-.fa-instagram {
-  background-color: #cf196e;
-}
-
-.fa-whatsapp {
-  background-color: green;
 }
 
 body {
