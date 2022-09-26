@@ -1,0 +1,454 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none; }
+  * body {
+    font-weight: bold;
+    width: 100%;
+    height: 100vh;
+    display: inline-block;
+    color: #fff; }
+
+header {
+  background-color: #01a7ad;
+  z-index: 10; }
+  header nav {
+    background-color: #01a7ad; }
+    header nav .logo {
+      display: flex;
+      height: 80px;
+      width: 80px;
+      margin-left: 16px; }
+    header nav .nav-item {
+      -webkit-animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+      animation: slide-in-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both; }
+    header nav .nav-item1 {
+      animation-delay: 0.3s; }
+    header nav .nav-item2 {
+      animation-delay: 0.6s; }
+    header nav .nav-item3 {
+      animation-delay: 0.9s; }
+    header nav .nav-item4 {
+      animation-delay: 1.2s; }
+    header nav .nav-item5 {
+      animation-delay: 1.5s; }
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-1000px);
+    transform: translateX(-1000px);
+    opacity: 0; }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1; } }
+
+.footer {
+  bottom: 0;
+  left: 0;
+  position: relative;
+  width: 100%;
+  background-color: #01a7ad;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
+  .footer .logo__footer {
+    height: 80px;
+    margin: auto;
+    display: block;
+    padding-top: 5px; }
+  .footer .social__icons-container, .footer .footer__menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; }
+    .footer .social__icons-container a, .footer .footer__menu-container a {
+      margin: 5px;
+      transition: 0.4s; }
+      .footer .social__icons-container a:hover, .footer .footer__menu-container a:hover {
+        transform: scale(1.3); }
+      .footer .social__icons-container a i, .footer .footer__menu-container a i {
+        color: #333; }
+  .footer p {
+    text-align: center;
+    margin: auto;
+    display: block;
+    opacity: 0.6; }
+    .footer p a {
+      text-decoration: none;
+      color: black;
+      opacity: 1; }
+      .footer p a:hover {
+        color: #fff;
+        opacity: 1; }
+  .footer .copyright {
+    color: #f2f2f2;
+    opacity: 0.3;
+    text-align: center;
+    margin: auto;
+    display: block; }
+  .footer .footer__menu-container {
+    color: #f2f2f2;
+    font-size: 18px; }
+    .footer .footer__menu-container .footer__item {
+      text-decoration: none;
+      margin: 1rem 1.5rem;
+      opacity: 0.6; }
+      .footer .footer__menu-container .footer__item:hover {
+        opacity: 1; }
+      .footer .footer__menu-container .footer__item a {
+        text-decoration: none;
+        color: #fff; }
+
+body {
+  font-weight: bold;
+  color: #fff;
+  position: relative;
+  padding-bottom: 3em;
+  font-family: "montserrat"; }
+  body .main__background {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+  body .main__background__index {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+    background-size: cover;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll; }
+  body .div__general {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+    display: inline-block; }
+  body footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
+    body footer .logo__footer {
+      height: 80px; }
+
+.welcome__section {
+  max-width: 600px;
+  height: 300px;
+  text-align: center;
+  margin: auto;
+  display: block;
+  margin-top: 200px; }
+  .welcome__section h1 {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 60px; }
+  .welcome__section a {
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff; }
+  .welcome__section a:hover {
+    background: #fff;
+    color: #333; }
+
+.services__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; }
+  .services__container .service__box {
+    max-width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer; }
+    .services__container .service__box:hover .service__icon {
+      background: #82ccdd;
+      color: #ddd; }
+    .services__container .service__box h3 {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .services__container .service__box p {
+      font-size: 14px; }
+    .services__container .service__box .service__icon {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      border: 3px solid #82ccdd;
+      color: #82ccdd;
+      transform: rotate(45deg);
+      margin-bottom: 30px;
+      margin-top: 16px;
+      transition: 0.3s linear; }
+      .services__container .service__box .service__icon i {
+        line-height: 70px;
+        transform: rotate(-45deg);
+        font-size: 26px; }
+
+section .inner_width {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+  overflow: hidden; }
+
+section h1 {
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 30px; }
+
+section .border {
+  width: 160px;
+  height: 2px;
+  background: #82ccdd;
+  margin: 40px auto; }
+
+section table {
+  width: 100%;
+  table-layout: fixed;
+  min-width: 300px;
+  border-collapse: collapse; }
+  section table .table__section {
+    height: 650px;
+    overflow: auto; }
+  section table thead th {
+    position: sticky;
+    top: 0;
+    background-color: #f6f9fc;
+    color: #8493a5;
+    font-size: 15px; }
+  section table th, section table td {
+    padding: 10px 20px;
+    word-break: break-all;
+    text-align: center;
+    color: #f6f9fc; }
+  section table td img {
+    height: 60px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid #ced0d2; }
+  section table tr:hover td {
+    color: #01a7ad;
+    cursor: pointer;
+    background-color: #f6f9fc; }
+
+.table__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: #f0f0f0; }
+  .table__header p {
+    color: black; }
+  .table__header .add__new {
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 10px 20px;
+    color: black;
+    background-color: #01a7ad; }
+  .table__header .input__table {
+    padding: 10px 20px;
+    margin: 0 10px;
+    outline: none;
+    border: 1px solid #01a7ad;
+    border-radius: 6px;
+    color: #01a7ad; }
+  .table__header::placeholder {
+    color: #01a7ad; }
+
+.section__contact {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(../images/dog-cat-vet.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10; }
+  .section__contact form {
+    width: 90%;
+    max-width: 600px; }
+    .section__contact form .button__form {
+      padding: 10px 0;
+      color: #fff;
+      outline: none;
+      background: transparent;
+      border: 1px solid #fff;
+      width: 100%;
+      cursor: pointer; }
+    .section__contact form .input-group {
+      margin-bottom: 30px;
+      position: relative; }
+      .section__contact form .input-group .input__contact {
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 15px; }
+        .section__contact form .input-group .input__contact:focus ~ label {
+          top: -35px;
+          font-size: 14px; }
+        .section__contact form .input-group .input__contact:valid ~ label {
+          top: -35px;
+          font-size: 14px; }
+      .section__contact form .input-group textarea {
+        width: 100%;
+        padding: 10px;
+        outline: 0;
+        border: 1px solid #fff;
+        color: #fff;
+        background: transparent;
+        font-size: 15px; }
+        .section__contact form .input-group textarea:focus ~ label {
+          top: -35px;
+          font-size: 14px; }
+        .section__contact form .input-group textarea:valid ~ label {
+          top: -35px;
+          font-size: 14px; }
+      .section__contact form .input-group .label__contact {
+        height: 100%;
+        position: absolute;
+        left: 0;
+        top: 0;
+        padding: 10px;
+        color: #fff;
+        cursor: text;
+        transition: 0.2s; }
+
+.div__about {
+  background-color: #f1f1f1;
+  text-align: center; }
+  .div__about .team_section {
+    background: #f1f1f1;
+    text-align: center; }
+    .div__about .team_section .inner_width2 {
+      max-width: 1200px;
+      margin: auto;
+      padding: 40px;
+      color: #333;
+      overflow: hidden; }
+      .div__about .team_section .inner_width2 .pers .pe {
+        float: left;
+        width: calc(100%/4);
+        overflow: hidden;
+        padding: 40px 0;
+        transition: 0.4s; }
+        .div__about .team_section .inner_width2 .pers .pe:hover {
+          background-color: #ddd; }
+        .div__about .team_section .inner_width2 .pers .pe img {
+          width: 120px;
+          height: 120px; }
+        .div__about .team_section .inner_width2 .pers .pe .name {
+          margin: 16px 0;
+          text-transform: uppercase; }
+        .div__about .team_section .inner_width2 .pers .pe .des {
+          font-size: italic;
+          color: #3498db; }
+        .div__about .team_section .inner_width2 .pers .pe .datos {
+          margin-top: 12px; }
+          .div__about .team_section .inner_width2 .pers .pe .datos a {
+            margin: 0 4px;
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            transition: 0.4s; }
+            .div__about .team_section .inner_width2 .pers .pe .datos a:hover {
+              transform: scale(1.3); }
+            .div__about .team_section .inner_width2 .pers .pe .datos a i {
+              color: #333;
+              line-height: 30px; }
+    .div__about .team_section h1 {
+      font-size: 20px;
+      color: #333;
+      text-transform: uppercase;
+      display: inline-block;
+      border-bottom: 4px solid;
+      padding-bottom: 10px; }
+  .div__about .div__h3 {
+    font-size: 20px;
+    color: #333;
+    text-transform: uppercase;
+    display: inline-block;
+    border-bottom: 4px solid;
+    padding-bottom: 10px; }
+  .div__about div .div__iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 500px; }
+  .div__about .info {
+    color: #333; }
+    .div__about .info .wsp__click {
+      color: blue;
+      text-decoration: none;
+      transition: 0.3s; }
+      .div__about .info .wsp__click:hover {
+        color: black; }
+
+@media only screen and (max-width: 1150px) {
+  .grid__container__about {
+    grid-template-columns: auto auto; } }
+
+@media only screen and (max-width: 600px) {
+  .grid__container__about {
+    grid-template-columns: auto; }
+  .grid__service {
+    grid-template-columns: 90%; }
+  main div .div__iframe {
+    width: 100%;
+    max-height: 300px; } }
+
+@media screen and (max-width: 960px) {
+  .services__container .service__box {
+    max-width: 45%; } }
+
+@media screen and (max-width: 768px) {
+  .services__container .service__box {
+    max-width: 50%; }
+  .div__about .team_section .inner_width2 .pers .pe {
+    width: 50%; }
+  body .main__background {
+    height: auto; } }
+
+@media screen and (max-width: 480px) {
+  .services__container .service__box {
+    max-width: 100%; }
+  .div__about .team_section .inner_width2 .pers .pe {
+    width: 100%; } }

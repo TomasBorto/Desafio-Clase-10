@@ -95,5 +95,15 @@
 
     .info{
         color: #333;
+
+        .wsp__click{
+            color: blue;
+            text-decoration: none;
+            transition: 0.3s;
+
+            &:hover{
+                color: black;
+            }
+        }
     }
 }

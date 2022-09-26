@@ -1,0 +1,22 @@
+{
+  "name": "sana-sana",
+  "version": "1.0.0",
+  "description": "Proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scsss ./scss/estilo.scss ./css/estilo.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomasBorto/Desafio-Clase-10.git"
+  },
+  "author": "Tomas Bortoluzzi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomasBorto/Desafio-Clase-10/issues"
+  },
+  "homepage": "https://github.com/TomasBorto/Desafio-Clase-10#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
