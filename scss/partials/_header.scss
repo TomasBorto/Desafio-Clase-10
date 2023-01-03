@@ -13,13 +13,13 @@ header{
         }
 
         .nav-item{
-            -webkit-animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
-            animation:slide-in-left .5s cubic-bezier(.25,.46,.45,.94) both;
+            -webkit-animation:slide-in-left .2s cubic-bezier(.25,.46,.45,.94) both;
+            animation:slide-in-left .2s cubic-bezier(.25,.46,.45,.94) both;
         }
 
         @for $item from 1 through 5 {
             .nav-item#{$item} {
-                animation-delay: $item*0.3s;
+                animation-delay: $item*0.2s;
             }
         }
         }
