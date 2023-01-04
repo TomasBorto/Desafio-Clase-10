@@ -48,21 +48,21 @@
     </header>
     <main>
         <section class="section__contact">
-            <form>
+            <form action="https://formsubmit.co/info@tbdevelopmentgroup.com" method="POST">
                 <div class="input-group">
-                    <input class="input__contact" type="text" id="name" required>
+                    <input name="nombre" class="input__contact" type="text" id="name" required>
                     <label class="label__contact" for="name"><i class="fa-solid fa-user"></i> Nombre Completo</label>
                 </div>
                 <div class="input-group">
-                    <input class="input__contact" type="text" id="numero" required>
+                    <input name="telefono" class="input__contact" type="text" id="numero" required>
                     <label class="label__contact" for="numero"><i class="fa-solid fa-phone-square-alt"></i> Su Numero de Telefono</label>
                 </div>
                 <div class="input-group">
-                    <input class="input__contact" type="email" id="email" required>
+                    <input name="email" class="input__contact" type="email" id="email" required>
                     <label class="label__contact" for="email"><i class="fa-solid fa-envelope"></i> Su Email</label>
                 </div>
                 <div class="input-group">
-                    <textarea id="mensaje" rows="8" required></textarea>
+                    <textarea name="consulta" id="mensaje" rows="8" required></textarea>
                     <label class="label__contact" for="mensaje"><i class="fa-solid fa-comments"></i> Su Mensaje</label>
                 </div>
                 <button class="button__form" type="submit"><i class="fa-solid fa-paper-plane"></i> ENVIAR</button>
